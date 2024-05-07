@@ -7,3 +7,5 @@ customer_schema = 'member_id string, emp_title string, emp_length string,home_ow
 customers_raw_df = spark.read.format("csv").option("header",True).schema(customer_schema).load("C:\Users\sahas\OneDrive\Desktop\trendytech_notes\lending_cart_dataset\accepted_2007_to_2018Q4")
 
 customers_raw_df.show()
+
+# calling function 1
